@@ -38,7 +38,7 @@ export function BackgroundBoxes({ children }) {
         </div>
       </div>
       <div className="flex flex-col sm:hidden justify-center items-center gap-2">
-        <div className="w-[200px] h-[300px] self-center">
+        <div className="w-[200px] h-[300px] self-center relative z-20">
           <Image
             src={MyPic}
             alt="My pic"
@@ -52,7 +52,7 @@ export function BackgroundBoxes({ children }) {
             A young mind who loves coding and builds amazing things — that's
             Shobuj Das!
           </p>
-          <div className="mt-7 flex gap-4 ">
+          <div className="mt-7 flex gap-4 relative z-20">
             <Button className="bg-green-400">Expole More </Button>
             <Button className="bg-yellow-400">Show Here</Button>
           </div>
