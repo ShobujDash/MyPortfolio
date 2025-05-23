@@ -48,7 +48,7 @@ export function BackgroundBoxes({ children }) {
         </div>
         <div className="text-center px-4 flex items-center justify-center flex-col">
           <TextGenerateEffect words={words} />
-          <p className="text-white mt-3">
+          <p className="text-white mt-3 relative z-20">
             A young mind who loves coding and builds amazing things — that's
             Shobuj Das!
           </p>
